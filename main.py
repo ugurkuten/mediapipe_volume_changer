@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import pyautogui as pygui
 
-objects = mp.solutions.objectron
 hands = mp.solutions.hands.Hands()
 draw = mp.solutions.drawing_utils
 
